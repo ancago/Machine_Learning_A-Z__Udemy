@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bed2cbc-e757-4ffd-b0be-32cc49d0e005" name="Default" comment="" />
+    <list default="true" id="1bed2cbc-e757-4ffd-b0be-32cc49d0e005" name="Default" comment="multiple linear regression">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/50_Startups.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/50_Startups.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/multiple_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/multiple_linear_regression.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="simple_linear_regression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simple_linear_regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="722">
+              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding>
                 <element signature="e#54#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiple_linear_regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/multiple_linear_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#56#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/Part 1 - Data Preprocessing/data_preprocessing_template.py" />
         <option value="$PROJECT_DIR$/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.py" />
+        <option value="$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/multiple_linear_regression.py" />
       </list>
     </option>
   </component>
@@ -64,7 +81,7 @@
               <item name="Machine_Learning_A-Z__Udemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine_Learning_A-Z__Udemy" type="462c0819:PsiDirectoryNode" />
               <item name="Part 2 - Regression" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 4 - Simple Linear Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 5 - Multiple Linear Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,17 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1531996022482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="multiple linear regression">
+      <created>1532000161326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532000161326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966888" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -248,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data preprocessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="data preprocessing" />
+    <MESSAGE value="multiple linear regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple linear regression" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Machine_Learning/data_preprocessing.py">
@@ -328,12 +352,25 @@
     <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 4 - Simple Linear Regression/data_preprocessing_template.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 4 - Simple Linear Regression/Salary_Data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 4 - Simple Linear Regression/simple_linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="722">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding>
             <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 2 - Regression/Section 5 - Multiple Linear Regression/multiple_linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#56#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
